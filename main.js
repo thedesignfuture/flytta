@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 let flightData = {
   departure: {
     city: 'Nice',
@@ -116,3 +117,4 @@ document.getElementById('bookingtype').addEventListener('change', updateBookLink
 
 // Initial load
 fillFlightInfo();
+});
